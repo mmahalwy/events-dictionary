@@ -1,0 +1,17 @@
+{
+  "name": "events-dictionary",
+  "version": "1.0.0",
+  "description": "A list of all browser events and their mappings",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib --copy-files",
+    "prepublish": "npm run build"
+  },
+  "author": "Mohamed El Mahallawy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
